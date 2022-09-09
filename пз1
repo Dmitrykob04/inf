@@ -1,0 +1,368 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNhC5r95PuZLnQYQmx14tBP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Dmitrykob04/inf/blob/main/%D0%BF%D0%B71\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y0hW4Z5G63J_",
+        "outputId": "8c0f2c34-959d-4004-f683-7adc8287155f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Всем привет!!!"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Всем привет\",sep=';', end= '!!!')\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_var = 5\n",
+        "second_var = 'всем'\n",
+        "print(f'{second_var} #{first_var}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SA9-1Y2Z8Vst",
+        "outputId": "6077e417-4b8a-4b26-a2f0-b95aeb44aa2f"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "всем #5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input('Окозавшись перед Путиным,что ты скажешь?')\n",
+        "print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f5D1913g-E8J",
+        "outputId": "30b16d62-c47d-41f7-821e-53d8531f69f8"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Окозавшись перед Путиным,что ты скажешь?УРААА\n",
+            "УРААА\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = '2'\n",
+        "b = 6\n",
+        "b*a"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "vBbQhHRH_JXC",
+        "outputId": "03138911-4b27-48c2-f868-533e4780bffb"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'222222'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number1 = int(input())\n",
+        "number2 = int(input())\n",
+        "op = input()\n",
+        "if op == '+':\n",
+        "  print(number1+number2)\n",
+        "elif  op == '*':\n",
+        "  print(number1*number2)\n",
+        "else:\n",
+        " print ('ya ne mogu');\n",
+        "  result_str = (str(number1) + 'op + str(number2) + '=' + str(result))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "39wDQWepAiQs",
+        "outputId": "38fc5413-dce7-4154-a717-dcdc60a640ae"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "3\n",
+            "/\n",
+            "vse uslovia okazalis lojnimi\n",
+            "2+3=5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "og_buda = input('kto ti?')\n",
+        "dora = input('maibe talant?')\n",
+        "if og_buda == '':\n",
+        "  print('vvedi imya pj')\n",
+        "else:\n",
+        "     print('ei dora gotova?')\n",
+        "if dora == '':\n",
+        "    print('chzh???')\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2dTrxjxaHMd_",
+        "outputId": "77553c2d-1a70-4886-9cad-28c15fe9f5af"
+      },
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "kto ti?dora\n",
+            "maibe talant?yes\n",
+            "ei dora gotova?\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "boolean_var_1 = True\n",
+        "boolean_var_2 = False\n",
+        "boolean_var_1 or boolean_var_2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q0odVwX8RoZ0",
+        "outputId": "97bb638c-a0fd-498d-9340-6ccd979a13f0"
+      },
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 47
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "boolean_var_1 = True\n",
+        "boolean_var_2 = False\n",
+        "not boolean_var_2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VixKYi1TTFB0",
+        "outputId": "afaf6f17-d48c-4cc8-d943-56e3444fd2bb"
+      },
+      "execution_count": 48,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 48
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "month = input('Какой сейчас месяц?')\n",
+        "year = int(input('какой сейчас год?'))\n",
+        "if month == 'январь' or month == 'март' or month == 'май':\n",
+        "  print(31)\n",
+        "elif month == 'февраль' and (year % 4 == 0 and year % 100 !=0 or year % 400 ==0):\n",
+        "  print(29)\n",
+        "elif month == 'февраль' and (year % 4 != 0 and year % 100 ==0 or year % 400 !=0):\n",
+        "  print (28)\n",
+        "else:\n",
+        "  print(30)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LSq0MgjjTXnW",
+        "outputId": "5887df33-ecc3-4c2b-8346-d865ff01b0b5"
+      },
+      "execution_count": 56,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Какой сейчас месяц?пап\n",
+            "какой сейчас год?2001\n",
+            "30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def line(x):\n",
+        "  y = 2 + 3 * x\n",
+        "  return y\n",
+        "\n",
+        "\n",
+        "x = int(input('введите икс\\н'))\n",
+        "print(line(x))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1SLOGNW-ZQd2",
+        "outputId": "a4be7038-fdd9-4ff9-f6a3-e79e5bbe64b4"
+      },
+      "execution_count": 67,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "введите икс\\н2\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def line(x):\n",
+        "  y = 2 + 3 * x\n",
+        "  global h\n",
+        "  h = 2\n",
+        "  return y\n",
+        "\n",
+        "\n",
+        "x = int(input('введите икс\\н'))\n",
+        "print(line(x))\n",
+        "print(h)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wtOsDR-Aej0W",
+        "outputId": "ce212d55-aade-4568-fa8c-c2089ed9ebaa"
+      },
+      "execution_count": 70,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "введите икс\\н11\n",
+            "35\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "wkACSLa1fFSA"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
